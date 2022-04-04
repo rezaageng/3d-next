@@ -1,7 +1,6 @@
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import type { NextPage } from 'next';
-import { AxesHelper } from 'three';
 import Ayaka from './components/Ayaka';
 
 import Layout from './components/Layout';
