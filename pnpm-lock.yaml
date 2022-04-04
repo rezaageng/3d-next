@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@react-three/drei': ^9.0.4
+  '@react-three/drei': ^9.1.0
   '@react-three/fiber': ^8.0.8
   '@types/node': 17.0.23
   '@types/react': 17.0.43
@@ -10,13 +10,13 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.17.0
   '@typescript-eslint/parser': ^5.17.0
   autoprefixer: ^10.4.4
-  eslint: ^7.32.0 || ^8.2.0
+  eslint: ^8.12.0
   eslint-config-airbnb: ^19.0.4
   eslint-config-next: 12.1.4
-  eslint-plugin-import: ^2.25.3
+  eslint-plugin-import: ^2.25.4
   eslint-plugin-jsx-a11y: ^6.5.1
-  eslint-plugin-react: ^7.28.0
-  eslint-plugin-react-hooks: ^4.3.0
+  eslint-plugin-react: ^7.29.4
+  eslint-plugin-react-hooks: ^4.4.0
   next: 12.1.4
   postcss: ^8.4.12
   prettier: 2.6.2
@@ -28,7 +28,7 @@ specifiers:
   typescript: 4.6.3
 
 dependencies:
-  '@react-three/drei': 9.0.4_4f754739fc8e1d86f16f3fcd0588a850
+  '@react-three/drei': 9.1.0_4f754739fc8e1d86f16f3fcd0588a850
   '@react-three/fiber': 8.0.8_a827855060b62e17a14992b3e241cec5
   next: 12.1.4_react-dom@18.0.0+react@18.0.0
   react: 18.0.0
@@ -45,12 +45,12 @@ devDependencies:
   '@typescript-eslint/parser': 5.17.0_eslint@8.12.0+typescript@4.6.3
   autoprefixer: 10.4.4_postcss@8.4.12
   eslint: 8.12.0
-  eslint-config-airbnb: 19.0.4_50e8813b1655ddd2c520b7ad5afa329d
+  eslint-config-airbnb: 19.0.4_0e8add1558a5db1c8c27993badaaf9fd
   eslint-config-next: 12.1.4_fab470334d1cc33786399cd971ce0917
   eslint-plugin-import: 2.25.4_eslint@8.12.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.12.0
-  eslint-plugin-react: 7.29.1_eslint@8.12.0
-  eslint-plugin-react-hooks: 4.3.0_eslint@8.12.0
+  eslint-plugin-react: 7.29.4_eslint@8.12.0
+  eslint-plugin-react-hooks: 4.4.0_eslint@8.12.0
   postcss: 8.4.12
   prettier: 2.6.2
   tailwindcss: 3.0.23_autoprefixer@10.4.4
@@ -343,8 +343,8 @@ packages:
     resolution: {integrity: sha512-KpxKt/D//q/t/6FBcde/RE36LKp8PpWu7kFEMLwpzMGl9RpcexunmYOQJWwmJWtkQjgE1YRr7DzBMryz6La1cQ==}
     dev: false
 
-  /@react-three/drei/9.0.4_4f754739fc8e1d86f16f3fcd0588a850:
-    resolution: {integrity: sha512-blsEJDN36Ju926PbFU1ydREDkre6Zj2azz4ha0AXXbVeVSYUrRjv1R19fEThxOqQ8F2uPMUwD7mGwRWChCPb4Q==}
+  /@react-three/drei/9.1.0_4f754739fc8e1d86f16f3fcd0588a850:
+    resolution: {integrity: sha512-pIt2Xw5rWvqc/OEgGpt/aLiyQPlGonvQzVrByGGpFdjYEvp5/dEFz565szsqqiCfVMGd0Z95zKTg9tyesQFt+w==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -1156,7 +1156,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-airbnb/19.0.4_50e8813b1655ddd2c520b7ad5afa329d:
+  /eslint-config-airbnb/19.0.4_0e8add1558a5db1c8c27993badaaf9fd:
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1170,8 +1170,8 @@ packages:
       eslint-config-airbnb-base: 15.0.0_dae71b730d6620b67a20047a747b2eda
       eslint-plugin-import: 2.25.4_eslint@8.12.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.12.0
-      eslint-plugin-react: 7.29.1_eslint@8.12.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.12.0
+      eslint-plugin-react: 7.29.4_eslint@8.12.0
+      eslint-plugin-react-hooks: 4.4.0_eslint@8.12.0
       object.assign: 4.1.2
       object.entries: 1.1.5
     dev: true
@@ -1316,8 +1316,40 @@ packages:
       eslint: 8.12.0
     dev: true
 
+  /eslint-plugin-react-hooks/4.4.0_eslint@8.12.0:
+    resolution: {integrity: sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+    dependencies:
+      eslint: 8.12.0
+    dev: true
+
   /eslint-plugin-react/7.29.1_eslint@8.12.0:
     resolution: {integrity: sha512-WtzRpHMhsOX05ZrkyaaqmLl2uXGqmYooCfBxftJKlkYdsltiufGgfU7uuoHwR2lBam2Kh/EIVID4aU9e3kbCMA==}
+    engines: {node: '>=4'}
+    peerDependencies:
+      eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
+    dependencies:
+      array-includes: 3.1.4
+      array.prototype.flatmap: 1.2.5
+      doctrine: 2.1.0
+      eslint: 8.12.0
+      estraverse: 5.3.0
+      jsx-ast-utils: 3.2.2
+      minimatch: 3.1.2
+      object.entries: 1.1.5
+      object.fromentries: 2.0.5
+      object.hasown: 1.1.0
+      object.values: 1.1.5
+      prop-types: 15.8.1
+      resolve: 2.0.0-next.3
+      semver: 6.3.0
+      string.prototype.matchall: 4.0.7
+    dev: true
+
+  /eslint-plugin-react/7.29.4_eslint@8.12.0:
+    resolution: {integrity: sha512-CVCXajliVh509PcZYRFyu/BoUEz452+jtQJq2b3Bae4v3xBUWPLCmtmBM+ZinG4MzwmxJgJ2M5rMqhqLVn7MtQ==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
