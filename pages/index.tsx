@@ -7,7 +7,7 @@ import Layout from './components/Layout';
 
 const Home: NextPage = () => (
   <Layout>
-    <Canvas orthographic={true} camera={{ zoom: 200, position: [0, 0, 100] }}>
+    <Canvas orthographic camera={{ zoom: 200, position: [0, 0, 100] }}>
       <ambientLight intensity={0.5} />
       <OrbitControls maxZoom={1000} minZoom={100} />
       <directionalLight position={[10, 10, 10]} intensity={1} />
