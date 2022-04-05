@@ -77,6 +77,6 @@ const Ayaka = ({ ...props }: JSX.IntrinsicElements['group']) => {
   );
 };
 
-useGLTF.preload('/ayaka.gltf');
-
 export default Ayaka;
+
+useGLTF.preload('/ayaka.gltf');
